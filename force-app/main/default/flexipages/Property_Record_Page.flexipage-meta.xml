@@ -98,6 +98,21 @@
         <componentInstances>
             <componentName>runtime_sales_activities:activityPanel</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>latField</name>
+                <value>Location__Latitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>longField</name>
+                <value>Location__Longitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>titleField</name>
+                <value>Name</value>
+            </componentInstanceProperties>
+            <componentName>RecordMap</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>activityTabContent</name>
         <type>Facet</type>
